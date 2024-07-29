@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login {
+    color: white;
+    position: absolute;
+    width: 25%;
+    top: 25%;
+    left: 40%;
+}
+
+.login h1 {
+    display: inline-block;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0;
+}
+
+.box input {
+    color: white;
+    background: none;
+    width: 75%;
+    outline: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.box i {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid purple;
+    margin: 10px 0;
+    padding: 10px 21px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover {
+    color: purple;
+    background: white;
+    opacity: 0.5;
+}
