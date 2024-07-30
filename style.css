@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(bg.jpg) no-repeat center center fixed;
+    background: url(bg2.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -13,7 +13,7 @@ body {
     position: absolute;
     width: 25%;
     top: 25%;
-    left: 40%;
+    left: 60%;
 }
 
 .login h1 {
@@ -45,7 +45,7 @@ body {
 
 .btn {
     color: white;
-    background: none;
+    background: purple;
     cursor: pointer;
     outline: none;
     border: 2px solid purple;
@@ -56,7 +56,6 @@ body {
     font-weight: bold;
 }
 .btn:hover {
-    color: purple;
+    color: black;
     background: white;
-    opacity: 0.5;
 }
