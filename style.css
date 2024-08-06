@@ -59,3 +59,13 @@ body {
     color: black;
     background: white;
 }
+.btn2 {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.btn2 i {
+    font-size: 15px;
+    color: white;
+}
